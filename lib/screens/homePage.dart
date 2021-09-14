@@ -22,12 +22,18 @@ class HomePage extends StatelessWidget {
                     const Text(
                       'First Line',
                       style: TextStyle(
-                          fontSize: 5, decoration: TextDecoration.underline),
+                          fontSize: 5,
+                        decoration: TextDecoration.underline
+                      ),
                     ),
-                    const Text('Second Line',
-                        style: TextStyle(
-                            color: Colors.purple, fontStyle: FontStyle.italic)),
+                 const Text('Second Line',
+                      style: TextStyle(
+                          color: Colors.purple,
+                          fontStyle: FontStyle.italic)),
                   ],
-                ))));
+               )
+           )
+       )
+    );
   }
 }
